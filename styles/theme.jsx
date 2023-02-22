@@ -83,6 +83,7 @@ const theme = extendTheme({
     Text: {
       baseStyle: {
         color: "white",
+        font: "Darker Grotesque, sans-serif",
       },
     },
     Link: {
