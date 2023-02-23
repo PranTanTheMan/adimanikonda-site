@@ -19,8 +19,14 @@ class MyDocument extends Document {
             content="BW flics platform for contact and payment"
           />
           <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+          <meta
+            name="keywords"
+            content="Photography, Rochester, Sports, high quality, Adi, Manikonda, Adi Manikonda"
+          />
+          <meta name="author" content="Adi Manikonda" />
+          <meta name="theme-color" content="#1b1b1b" />
         </Head>
-        <body>
+        <body style={{ background: "#1b1b1b" }}>
           <Main />
           <NextScript />
         </body>

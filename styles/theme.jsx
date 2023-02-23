@@ -1,10 +1,18 @@
 import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
+  // global: {
+  //   styles: {
+  //     body: {
+  //       bg: "layout.200",
+  //       color: "white",
+  //     },
+  //   },
+  // },
   colors: {
     layout: {
       50: "#1C1A17",
-      100: "rgba(0, 0, 0, 0.6)",
+      100: "rgba(0, 0, 0, 0.45)",
       200: "#16181A",
       300: "#ffffff",
       400: "#ECEDEE",
@@ -37,6 +45,7 @@ const theme = extendTheme({
       900: "#ECEDEE",
     },
     transparent: "transparent",
+    background: "#16181A",
   },
   fonts: {
     heading: "Darker Grotesque, sans-serif",
@@ -82,13 +91,13 @@ const theme = extendTheme({
     },
     Text: {
       baseStyle: {
-        color: "white",
+        color: "layout.400",
         font: "Darker Grotesque, sans-serif",
       },
     },
     Link: {
       baseStyle: {
-        color: "white",
+        color: "layout.400",
       },
     },
   },
